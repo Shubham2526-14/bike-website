@@ -163,7 +163,7 @@
 
 
     .mobile-bars {
-        display: block;
+        display: flex;
 
     }
 
