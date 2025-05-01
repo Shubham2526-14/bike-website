@@ -37,7 +37,6 @@ ul {
 
 a {
     text-decoration: none;
-    /* color: rgb(199, 192, 192); */
     color: #AFAFAF
 }
 
@@ -272,4 +271,65 @@ img {
 
 .mobile-bars {
     display: none;
+}
+
+
+
+
+/* offcanvas */
+
+.offnav{
+    display: flex;
+    width: 100%;
+}
+
+.off_logo, .close{
+    width: 50%;
+}
+
+.close{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.offcanvass{
+    width: 100%;
+    height: 100vh;
+    background-color: #0e0f11bf;
+    position: fixed;
+    z-index: -1;
+    backdrop-filter: blur(10px);
+    /* right: -100%; */
+    opacity: 0;
+    top: 0;
+    left: 0;
+    padding: 30px 30px 30px 30px;
+}
+
+.mobile_links{
+    /* margin-top: 30px; */
+    padding: 50px 0px 10px 0px;
+}
+
+.mobile_links ul{
+    padding: 0;
+}
+
+.mobile_links ul li{
+    font-size: clamp(20px, 5vw, 30px);
+    color: white;
+    margin-bottom: 5px;
+}
+
+hr{
+    color: white;
+}
+
+.location .facebook{
+    height: 22px;
+    margin-right: 10px;
+}
+
+.location .instagram{
+    height: 20px;
 }
