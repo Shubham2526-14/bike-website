@@ -23,6 +23,9 @@
         padding: 50px 50px 50px 50px;
 
     }
+      .section3{
+        padding: 100px 50px;
+      }
 }
 
 @media (max-width: 1200px) and (max-height:1400px) {
@@ -100,6 +103,28 @@
     .search img {
         top: 9px;
     }
+
+    .section3-chiled1-parent {
+        display: block;
+        padding: 0px 0px;
+    }
+
+    .section3-chiled3 {
+        width: 48%;
+    }
+    .section3-chiled1 {
+        width: 95%;
+    }
+    .section3-chiled2 {
+        width: 95%;
+        margin: 0px 0px;
+        margin-top: 20px;
+
+    }
+    .section3{
+        padding: 100px 30px;
+      }
+ 
 }
 
 @media (max-width: 1000px) and (min-height: 1100px) {
@@ -128,6 +153,35 @@
 
 
 }
+
+
+
+@media (max-width: 1100px) {
+    .section3 h4 {
+        font-size: 47px;
+    }
+
+    .mask {
+        mask-size: 100%, 300px 450px;
+    }
+
+
+    
+}
+@media (max-width: 800px) {
+    .section3-chiled3 {
+        width: 67%;
+    }
+    
+    .section3-mid-chiled {
+        padding: 10px 10px;
+    }
+    
+}
+
+
+
+
 
 @media (max-width: 660px) {
 
@@ -158,7 +212,19 @@
     }
 
     .search {
-        display: none;
+       margin-top: 20px;
+       width: 60%;
+     
+    }
+    .section1_right input::placeholder {
+        font-size: 14px;
+    }
+
+    .search img {
+       height: 15px;
+       width: 15px;
+       top: 12px;
+       right: 15px;
     }
 
 
@@ -175,9 +241,64 @@
         margin-top: 95px;
     }
 
+    .section3 h5 {
+        font-size: 17px;
+    }
+    .section3 h4 {
+        font-size: 37px;
+    }
+    .section3-chiled1 {
+        padding: 30px 0px;
+    }
+    .section3-chiled2 {
+        padding: 30px 0px;
+    }
+    .section3-chiled1-chiled1 {
+        margin-top: 19px;
+    }
 
+  
+
+
+    
 }
 
+
+@media (max-width: 570px) {
+
+    .section3-chiled1-parent {
+        width: 100%;
+    }
+    .section3-chiled1 {
+        width: 100%;
+    }
+    .section3-chiled2 {
+        width: 100%;
+    }
+    .section3-mid-chiled {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3-chiled1 {
+        padding: 40px 0px;
+    }
+    .section3-chiled2 {
+        padding: 40px 0px;
+    }
+    .section3 h4 {
+        font-size: 40px;
+    }
+
+    .section3-chiled3 {
+        height: 172px;
+        width: 100%;
+        
+        margin-top: 20px;
+
+
+
+}
+}
 @media(max-width: 400px) and (max-height: 700px){
     .mobile_links{
         padding: 30px 0px 0px 0px;
@@ -186,6 +307,19 @@
     .mobile_links ul li{
    
     margin-bottom: 7px;
+}
+
+.search {
+    height: 34px;
+}
+  .search img {
+    top: 11px;
+    height: 13px;
+    width: 13px;
+}
+.section1_right input::placeholder {
+    font-size: 12px;
+
 }
 
 }

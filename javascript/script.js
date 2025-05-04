@@ -15,14 +15,28 @@ trigger.addEventListener("click", () => {
         duration: 1
     });
 
-    gsap.fromTo(".stag",
-        { y: 20, opacity: 0 },
-        { y: 0, opacity: 1, stagger: 0.1, delay: 1 }
+    gsap.fromTo(".stag", {
+         y: 20,
+          opacity: 0,
+         },
+        {
+             y: 0,
+             opacity: 1,
+              stagger: 0.1, 
+              delay: 1 
+            }
     );
 
-    gsap.fromTo(".stag2",
-        { y: 20, opacity: 0 },
-        { y: 0, opacity: 1, stagger: 0.1, delay: 1.3 }
+    gsap.fromTo(".stag2",{
+         y: 20,
+          opacity: 0,
+         },
+        {
+             y: 0,
+              opacity: 1, 
+              stagger: 0.1,
+               delay: 1.3 
+            }
     );
 });
 
@@ -59,3 +73,28 @@ closed.addEventListener("click", () => {
 
 
 
+
+// hero section video
+
+gsap.to(".mask", {
+    maskSize: "100%, 100vw 100vh",
+    scrollTrigger: {
+        trigger: ".parent",
+        start: "top top",
+        end: "",
+        // markers: true,
+        pin: true,
+        scrub: 1,
+    }
+})
+
+
+gsap.from(".video_text h3", {
+    y: 50,
+    opacity: 0,
+    stagger: 0.3,
+    scrollTrigger:{
+        trigger: ".parent",
+        start: "top top",
+    }
+})
