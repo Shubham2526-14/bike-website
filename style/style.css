@@ -753,7 +753,7 @@ img {
     /* position: relative; */
     padding: 100px 120px;
     box-sizing: border-box;           
-       border-radius: 50px;
+    border-radius: 20px;
         /* margin-top: 200px; */
         background-color: #0e0f11;
         /* backdrop-filter: blur(10px); */

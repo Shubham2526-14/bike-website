@@ -36,6 +36,7 @@
     .packages-heading-parent{
         padding: 150px 50px 50px 50px;
 
+
     }
     .packages-parent {
         padding: 100px 50px 50px 50px;
@@ -166,12 +167,14 @@
     }
     .packages-heading-parent{
         padding: 100px 30px 50px 30px;
+        top: -50px;
 
     }
     .packages-parent {
         padding: 100px 30px 50px 30px;
-
     }
+
+
 
    
  
@@ -335,6 +338,7 @@
       
     .packages-heading-parent{
         padding: 80px 10px 50px 10px;
+        top: -40px;
 
     }
     .packages-parent {
@@ -380,7 +384,43 @@
         margin-bottom: 5px;
     }
 
+
+
+    /* packages section  */
+
+    .packages-parent {
+        padding: 50px 10px 50px 10px;
+        border-radius: 20px;
+    }
+
+    .package_detail{
+        padding: 10px;
+    }
+
+    .custom-nav button{
+        padding: 20px;
+        font-size: 13px;
+    }
+
+    .item-heading .para{
+    padding: 15px 0px 15px 0px;
 }
+
+    .custom-prev, .custom-next{
+        height: auto;
+        width: auto;
+    }
+}
+
+
+@media (max-width: 450px){
+    .package_detail{
+        padding: 0;
+    }
+}
+
+
+
 @media (max-width: 402px) {
     .section3-chiled1, .section3-chiled2{
         padding: 10px;
@@ -403,6 +443,22 @@
     .section3-mid-chiled{
         padding-left: 10px;
     }
+
+
+    /* packages  */
+
+    .custom-nav button{
+        padding: 15px;
+        font-size: 12px;
+    }
+    .custom-nav {
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    
+    
+
 
 }
 
