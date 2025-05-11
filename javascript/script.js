@@ -1,3 +1,21 @@
+// const lenis = new Lenis({
+//     smooth: 10,
+//     direction: 'vertical',
+//     gestureOrientation: 'vertical',
+//     smoothTouch: 5,
+//     touchMultiplier: 2,
+//   });
+  
+//   function raf(time) {
+//     lenis.raf(time);
+//     requestAnimationFrame(raf);
+//   }
+  
+//   requestAnimationFrame(raf);
+
+
+
+
 var trigger = document.getElementById("trigger");
 var canvass = document.querySelector(".offcanvass"); 
 let closed = document.querySelector(".close");
@@ -72,6 +90,80 @@ closed.addEventListener("click", () => {
 });
 
 
+// button
+
+
+const button = document.querySelector('.button2');
+const text = button.querySelector('p');
+const logo1 = button.querySelector('.button-logo');
+
+// Hover Enter: Fast & Responsive
+button.addEventListener('mouseenter', () => {
+  gsap.to(button, {
+    '--before-top': '0px',
+    duration: 0.30,
+    ease: "power4.out",
+  });
+
+  gsap.to(button, {
+    '--logo2-top': '0px',
+    '--logo2-opacity': 1,
+    duration: 0.30,
+    ease: "power4.out",
+  });
+
+  gsap.to(text, {
+    y: -50,
+    duration: 0.30,
+    ease:"power4.out",
+  });
+
+  gsap.to(logo1, {
+    x:5,
+    duration: 0.30,
+    ease: "power4.out",
+  });
+});
+
+// Hover Leave: Fast reset
+button.addEventListener('mouseleave', () => {
+  gsap.to(button, {
+    '--before-top': '50px',
+    duration: 0.30,
+    ease: "power4.out",
+  });
+
+  gsap.to(button, {
+    '--logo2-top': '50px',
+    '--logo2-opacity': 0,
+    duration: 0.30,
+    ease: "power4.out",
+  });
+
+  gsap.to(text, {
+    y: 0,
+    duration: 0.30,
+    ease: "power4.out",
+  });
+
+  gsap.to(logo1, {
+    x:0,
+    duration: 0.30,
+    ease:"power4.out",
+  });
+
+  gsap.to(button, {
+    x: 0,
+    y: 0, 
+    duration: 0.30,
+    ease: "power4.out",
+  });
+});
+
+
+
+
+
 
 
 // hero section video
@@ -98,3 +190,35 @@ gsap.from(".video_text h3", {
         start: "top top",
     }
 })
+
+
+
+
+
+
+/* packages section */
+
+
+$(document).ready(function(){
+    var owl = $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false, // Disable default navigation arrows
+        dots: false, // Disable dots navigation
+        responsive: {
+            0: { items: 1 },
+            600: { items: 3 },
+            1000: { items: 3 }
+        }
+    });
+    
+    // Custom navigation
+    $('.custom-next').click(function() {
+        owl.trigger('next.owl.carousel');
+    });
+    
+    $('.custom-prev').click(function() {
+        owl.trigger('prev.owl.carousel');
+    });
+});
+
