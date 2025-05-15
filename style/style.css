@@ -715,6 +715,8 @@ img {
 
 
 /* packages saction Heading */
+
+
 .packages-heading-parent{
     position: sticky;
     top: -100px;
@@ -753,7 +755,8 @@ img {
     /* position: relative; */
     padding: 100px 120px;
     box-sizing: border-box;           
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
         /* margin-top: 200px; */
         background-color: #0e0f11;
         /* backdrop-filter: blur(10px); */
@@ -939,4 +942,23 @@ font-size: 26px;
     background-color: #dfdfdf;
     scale: 1.05;
 }
+
+
+
+
+
+
+/* <!-- why choose us heading --> */
+
+ .choose-us-heading-parent{
+          padding: 100px 120px 50px 120px;
+          background-color: white;
+        
+  
+
+
+    }
+
+
+
 

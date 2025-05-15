@@ -193,6 +193,23 @@ gsap.from(".video_text h3", {
 
 
 
+// about img
+
+
+        gsap.to(".about_img", {
+  backgroundPositionX: "50%",  // Move horizontally
+  backgroundPositionY: "50%",  
+//   scale: 1.2,
+  y:0,
+  // ease: "power4.out",
+  scrollTrigger: {
+      trigger: ".about_img_parent",
+      start: "top 60%",
+      end: "bottom 90%",
+      scrub: 1,
+  }
+});
+
 
 
 
@@ -223,3 +240,104 @@ $(document).ready(function(){
     });
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+ // Fade IN background up to 50% of the section
+gsap.to(".choose_bg1", {
+  "--bg-color": "#ffffff5c",
+  scrollTrigger: {
+    trigger: ".choose_bg1",
+    start: "top 60%",
+    end: "40% 60%", // halfway point of the element
+    scrub: true,
+    markers: true
+  }
+});
+
+// Fade OUT background back to white after 50%
+gsap.from(".choose_bg1", {
+  "--bg-color": "#ffffff5c",
+  scrollTrigger: {
+    trigger: ".choose_bg1",
+    start: "center center",
+    end: "bottom center",
+    scrub: true,
+    // markers: true
+  }
+});
+gsap.to(".choose_bg2", {
+  "--bg-color": "#ffffff5c",
+  scrollTrigger: {
+    trigger: ".choose_bg2",
+    start: "top 60%",
+    end: "40% 60%", // halfway point of the element
+    scrub: true,
+    markers: true
+  }
+});
+
+// Fade OUT background back to white after 50%
+gsap.from(".choose_bg2", {
+  "--bg-color": "#ffffff5c",
+  scrollTrigger: {
+    trigger: ".choose_bg2",
+    start: "center center",
+    end: "bottom center",
+    scrub: true,
+    // markers: true
+  }
+});
+gsap.to(".choose_bg3", {
+  "--bg-color": "#ffffff5c",
+  scrollTrigger: {
+    trigger: ".choose_bg3",
+    start: "top 60%",
+    end: "40% 60%", // halfway point of the element
+    scrub: true,
+    markers: true
+  }
+});
+
+// Fade OUT background back to white after 50%
+gsap.from(".choose_bg3", {
+  "--bg-color": "#ffffff5c",
+  scrollTrigger: {
+    trigger: ".choose_bg3",
+    start: "center center",
+    end: "bottom center",
+    scrub: true,
+    // markers: true
+  }
+});
+gsap.to(".choose_bg4", {
+  "--bg-color": "#ffffff5c",
+  scrollTrigger: {
+    trigger: ".choose_bg4",
+    start: "top 60%",
+    end: "40% 60%", // halfway point of the element
+    scrub: true,
+    markers: true
+  }
+});
+
+// Fade OUT background back to white after 50%
+gsap.from(".choose_bg4", {
+  "--bg-color": "#ffffff5c",
+  scrollTrigger: {
+    trigger: ".choose_bg4",
+    start: "center center",
+    end: "bottom center",
+    scrub: true,
+    // markers: true
+  }
+});
