@@ -168,28 +168,28 @@ button.addEventListener('mouseleave', () => {
 
 // hero section video
 
-gsap.to(".mask", {
-    maskSize: "100%, 100vw 100vh",
-    scrollTrigger: {
-        trigger: ".parent",
-        start: "top top",
-        end: "",
-        // markers: true,
-        pin: true,
-        scrub: 1,
-    }
-})
+// gsap.to(".mask", {
+//     maskSize: "100%, 100vw 100vh",
+//     scrollTrigger: {
+//         trigger: ".parent",
+//         start: "top top",
+//         end: "",
+//         // markers: true,
+//         pin: true,
+//         scrub: 1,
+//     }
+// })
 
 
-gsap.from(".video_text h3", {
-    y: 50,
-    opacity: 0,
-    stagger: 0.3,
-    scrollTrigger:{
-        trigger: ".parent",
-        start: "top top",
-    }
-})
+// gsap.from(".video_text h3", {
+//     y: 50,
+//     opacity: 0,
+//     stagger: 0.3,
+//     scrollTrigger:{
+//         trigger: ".parent",
+//         start: "top top",
+//     }
+// })
 
 
 
@@ -248,6 +248,12 @@ $(document).ready(function(){
 
 
 
+
+
+window.addEventListener("load", () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Your ScrollTrigger code here
 
 
 
@@ -340,4 +346,7 @@ gsap.from(".choose_bg4", {
     scrub: true,
     // markers: true
   }
+});
+
+
 });
