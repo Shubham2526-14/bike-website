@@ -11,7 +11,7 @@
 
 }
 
-body{
+body {
     background-color: #0E0F11;
 }
 
@@ -134,7 +134,7 @@ hr {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: var(--before-top, 50px); 
+    top: var(--before-top, 50px);
     right: 0;
     color: #FFFFFF;
     font-family: "Poppins", sans-serif;
@@ -510,12 +510,12 @@ img {
     border-radius: 10px;
     overflow: hidden;
 
-    
+
 
 
 }
 
-.section3-chiled3 video{
+.section3-chiled3 video {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -556,7 +556,7 @@ img {
 .section3-chiled1-chiled1 {
     width: 80%;
     margin-top: 10px;
-    
+
 
 
 }
@@ -590,7 +590,8 @@ img {
 
 
 }
-.section3{
+
+.section3 {
     position: absolute;
     right: 120px;
     width: 50vw;
@@ -602,12 +603,12 @@ img {
     animation-direction: alternate;
 }
 
-@keyframes updown{
-    0%{
+@keyframes updown {
+    0% {
         transform: translateY(0px);
     }
 
-    100%{
+    100% {
         transform: translateY(10px);
     }
 }
@@ -667,7 +668,7 @@ img {
 .about-chiled1-ka-chiled4 {
     display: flex;
     padding-top: 30px;
-   
+
 }
 
 
@@ -680,8 +681,8 @@ img {
 }
 
 .section_main_heading {
-    font-size: clamp(35px ,5.7vw , 75px);
-    line-height: clamp(40px , 5.7vw , 80px);
+    font-size: clamp(35px, 5.7vw, 75px);
+    line-height: clamp(40px, 5.7vw, 80px);
     font-weight: 450;
     margin-bottom: 7px;
 
@@ -691,12 +692,12 @@ img {
     font-weight: 200;
 }
 
-.about_img_parent{
+.about_img_parent {
     width: 100%;
     height: 80vh;
     overflow: hidden;
     position: relative;
-    z-index: -1 ;
+    z-index: -1;
 
 }
 
@@ -708,7 +709,7 @@ img {
     background-size: cover;
     background-position: top;
 
-    
+
 
 }
 
@@ -718,18 +719,19 @@ img {
 /* packages saction Heading */
 
 
-.packages-heading-parent{
-    position: sticky;
-    top: -100px;
+.packages-heading-parent {
+    /* position: sticky; */
+    /* top: -100px; */
     padding: 200px 120px 100px 120px;
 }
 
-.packages-heading{
+.packages-heading {
     width: 70%;
 
 }
 
-.packages-heading h2, .white-bg{
+.packages-heading h2,
+.white-bg {
     color: #0E0F11;
 }
 
@@ -745,7 +747,7 @@ img {
 
 
 
-.packages{
+.packages {
     background-color: rgba(255, 255, 255, 1);
     position: relative;
     /* z-index: -2; */
@@ -754,29 +756,42 @@ img {
 
 .packages-parent {
     /* position: relative; */
-    padding: 100px 120px;
-    box-sizing: border-box;           
+    padding: 0px 120px;
+    box-sizing: border-box;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-        /* margin-top: 200px; */
-        background-color: #0e0f11;
-        /* backdrop-filter: blur(10px); */
-        position: relative;
-        z-index: 1;
-    
+    /* margin-top: 200px; */
+    /* background-color: #0e0f11; */
+    /* backdrop-filter: blur(10px); */
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .item {
     /* height: 200px; */
     /* background: red; */
-    border: 1px solid rgba(245, 245, 245, 0.459);
-    color: white;
+    border: 1px solid rgba(57, 57, 57, 0.459);
+    color: #0E0F11;
     border-radius: 10px;
     padding: 12px 12px;
     box-sizing: border-box;
 
 
- 
+
+}
+
+.item-heading h3 {
+    font-weight: 400;
+    font-size: 26px;
+    color: #0E0F11;
+}
+
+.item-heading p {
+    color: #0e0f11df;
 }
 
 .owl-dots {
@@ -796,8 +811,9 @@ img {
     transform: translateY(-50%);
 } */
 
-.custom-prev, .custom-next {
-    background: rgba(0,0,0,0.5);
+.custom-prev,
+.custom-next {
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     width: 40px;
@@ -812,8 +828,9 @@ img {
     z-index: 100;
 }
 
-.custom-prev:hover, .custom-next:hover {
-    background: rgba(0,0,0,0.8);
+.custom-prev:hover,
+.custom-next:hover {
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .custom-prev {
@@ -827,91 +844,100 @@ img {
 }
 
 
-.item-button{
+.item-button {
     display: flex;
     justify-content: space-between;
     padding: 15px 0px 10px 0px;
 }
-.packeges-button{
+
+.packeges-button {
     padding: 9px 20px;
     font-size: 13px;
     border-radius: 5px;
-    border: 1px solid white;
-    color: black;
+    border: 1px solid #0E0F11;
+    ;
+    color: white;
 
-    background-color: white;
+    background-color: #0E0F11;
     transition: all 0.3s ease;
 
-    
-}
-.packeges-button:hover{
-    border: 1px solid white;
-    background-color: transparent;
-    color: white;
-    
-        transition: all 0.3s ease-in-out;
+
 }
 
-.packeges-button2{
+.packeges-button:hover {
+    border: 1px solid #0E0F11;
+    ;
+    background-color: transparent;
+    color: #0E0F11;
+    ;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.packeges-button2 {
     /* border: 1px solid white; */
     border: 1px solid transparent;
- padding: 9px 20px;
- border-radius: 5px;
-background-color: transparent;
-color:#FFFFFF;
-font-size: 13px;
-transition: all 0.3s ease;
-}
-
-.packeges-button2:hover{
-    border: 1px solid white;
+    padding: 9px 20px;
+    border-radius: 5px;
     background-color: transparent;
-    color: white;
-    
-        transition: all 0.3s ease-in-out;
+    color: #0E0F11;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.packeges-button2:hover {
+    border: 1px solid #0E0F11;
+    ;
+    background-color: transparent;
+    color: #0E0F11;
+    ;
+
+    transition: all 0.3s ease-in-out;
 }
 
 
-.item-img img{
+.item-img img {
     border-radius: 10px;
 }
 
 
 
-.item-heading .para{
+.item-heading .para {
     padding: 20px 0px 20px 0px;
     margin-bottom: 0px;
     /* font-size: 15px; */
 }
-.item-heading h3{
-font-weight: 400;
-font-size: 26px;
-}
 
 
 
-.item-dates{
+
+.item-dates {
     display: flex;
     align-items: center;
     /* padding-top: 6px; */
- 
+    padding: 10px;
+    border-radius: 5px;
+
 }
-.calander{
+
+.calander {
     height: 15px;
     width: 15px;
-   margin-right: 8px;
-   
+    margin-right: 8px;
+
 }
-.item-dates h4{
+
+.item-dates h4 {
     font-size: 16px;
-        color:#d9d9d9;
-        font-weight: 300;
+    color: #0E0F11;
+    font-weight: 300;
 
 }
 
-.package_detail{
+.package_detail {
     padding: 20px;
 }
+
 /* .item-dates span{
     font-size: 18px;
         color:white;
@@ -925,24 +951,33 @@ font-size: 26px;
 
 /* packages saction Button*/
 
-.custom-nav{
+.custom-nav {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 100px;
     margin-top: 30px;
-    justify-content: right;
-    gap: 20px;
+    justify-content: space-between;
 }
 
-.custom-nav button{
+.custom-nav button {
     border-radius: 5px;
     /* margin-right: ; */
-    padding: 30px;
-    background-color: white;
-    color: black;
+    padding: 20px;
+    background-color: #0e0f11dc;
+    color: white;
+    height: 50px;
 }
 
-.custom-nav button:hover{
+.custom-nav button:hover {
     background-color: #dfdfdf;
     scale: 1.05;
+    color: #0E0F11;
 }
+
+
+
+
 
 
 
@@ -951,15 +986,91 @@ font-size: 26px;
 
 /* <!-- why choose us heading --> */
 
- .choose-us-heading-parent{
-          padding: 100px 120px 50px 120px;
-          background-color: white;
-        
-  
-
-
-    }
+.choose-us-heading-parent {
+    padding: 150px 120px 100px 120px;
+    background-color: white;
 
 
 
 
+}
+
+
+
+
+.why_choose_heading {
+    text-align: center;
+    width: 100%;
+}
+
+.why_choose_heading h2 {
+    font-size: clamp(35px, 10vw, 100px);
+}
+
+.why_choose {
+    width: 100%;
+}
+
+
+
+.why-choose-us {
+    padding: 0px 120px 0px 120px;
+    background-color: white;
+
+}
+
+.why-choose-us-chiled {
+    position: relative;
+}
+
+
+.why-choose-us-chiled h3 {
+    color: #0e0f11;
+
+}
+
+.why-choose-us-chiled p {
+    /* color: #0e0f11; */
+
+}
+
+
+.why-choose-us-chiled1-heading {
+    width: 40%;
+}
+
+.why-choose-us-chiled1-para {
+    width: 60%;
+}
+
+
+
+.choose_bg1,
+.choose_bg2,
+.choose_bg3,
+.choose_bg4 {
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    padding: 60px 30px;
+    border-top: 1px solid grey;
+
+
+}
+
+
+.why-choose-us-chiled1-heading,
+.why-choose-us-chiled1-para {
+    background-color: transparent;
+}
+
+.why-choose-us-chiled img {
+    position: absolute;
+    left: 20%;
+    scale: 0;
+    top: 0;
+    border-radius: 10px;
+    width: 15%;
+}
