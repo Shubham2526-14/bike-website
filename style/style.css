@@ -44,6 +44,7 @@ ul {
 a {
     text-decoration: none;
     color: #AFAFAF
+    
 }
 
 
@@ -756,7 +757,7 @@ img {
 
 .packages-parent {
     /* position: relative; */
-    padding: 0px 120px;
+    padding: 0px 120px 100px 120px;
     box-sizing: border-box;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -998,6 +999,9 @@ img {
 
 
 
+
+
+
 .why_choose_heading {
     text-align: center;
     width: 100%;
@@ -1056,9 +1060,11 @@ img {
     display: flex;
     padding: 60px 30px;
     border-top: 1px solid grey;
+    /* background: linear-gradient(to bottom, #e5feff, var(--white-shade)); */
 
 
 }
+
 
 
 .why-choose-us-chiled1-heading,
@@ -1074,3 +1080,5 @@ img {
     border-radius: 10px;
     width: 15%;
 }
+
+

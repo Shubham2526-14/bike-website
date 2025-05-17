@@ -40,16 +40,16 @@
     }
 
     .packages-parent {
-        padding: 0px 50px 0px 50px;
+        padding: 0px 50px 100px 50px;
 
     }
 
     .choose-us-heading-parent {
-        padding: 150px 50px 50px 50px;
+        padding: 100px 50px 50px 50px;
     }
 
     .why-choose-us {
-        padding: 50px 50px 50px 50px;
+        padding: 0px 50px 50px 50px;
     }
 
     .custom-nav{
@@ -207,12 +207,12 @@
     }
 
     .packages-parent {
-        padding: 0px 30px 0px 30px;
+        padding: 0px 30px 100px 30px;
     }
 
 
     .choose-us-heading-parent {
-        padding: 100px 30px 50px 30px;
+        padding: 50px 30px 50px 30px;
     }
 
     .why-choose-us {
@@ -402,12 +402,12 @@
     }
 
     .packages-parent {
-        padding: 10px 10px 10px 10px;
+        padding: 10px 10px 70px 10px;
 
     }
 
     .choose-us-heading-parent {
-        padding: 80px 10px 50px 10px;
+        padding: 30px 10px 0px 10px;
     }
 
     .why-choose-us {
@@ -424,7 +424,7 @@
 
 
 
-
+    
     .why-choose-us-chiled {
         flex-direction: column;
     }
@@ -444,6 +444,11 @@
     .why-choose-us-chiled1-heading {
         width: 100%;
     }
+
+
+.why_choose_heading h2{
+    font-size: 35px;
+}
 
 
 
@@ -492,9 +497,9 @@
 
     /* packages section  */
 
-    .packages-parent {
+    /* .packages-parent {
         padding: 10px 10px 10px 10px
-    }
+    } */
 
     .package_detail {
         padding: 10px;
@@ -515,9 +520,6 @@
         width: auto;
     }
 
-    .choose-us-heading-parent {
-        padding: 50px 10px 50px 10px;
-    }
 }
 
 
@@ -562,6 +564,8 @@
     .custom-nav button:hover{
         background-color: #93939371;
     }
+
+
 
 
 }
