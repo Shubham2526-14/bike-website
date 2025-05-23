@@ -40,7 +40,7 @@
     }
 
     .packages-parent {
-        padding: 0px 50px 100px 50px;
+        padding: 0px 50px 0px 50px;
 
     }
 
@@ -55,6 +55,44 @@
     .custom-nav{
         padding: 0px 30px;
     }
+
+     .carousel-slide {
+
+              flex: 0 0 72%;
+             
+
+        }
+         .gallery{
+            padding: 40px 50px 70px 50px;
+        }
+      
+        .carousel{
+
+            height: 70vh;
+        
+
+        }
+
+             .faq-section{
+    padding: 0px 50px 0px 50px;
+
+             }
+
+                .bike-packages{
+
+        padding-bottom: 50px;
+
+
+
+     }
+     .testimonial-heading{
+    padding-top: 8px;
+        padding-bottom: 70px;
+  
+}
+
+ 
+     
 
 
 }
@@ -127,7 +165,7 @@
     .choose_bg2,
     .choose_bg3,
     .choose_bg4 {
-        padding: 60px 0px;
+        padding: 40px 0px;
     }
 
     .why-choose-us-chiled1-heading {
@@ -135,10 +173,22 @@
     }
 
     .why-choose-us-chiled img {
-        height: 50%;
-        left: 25%;
+        /* height: 50%; */
+        width: 15%;
+        left: 24%;
         top: 20%;
     }
+
+
+    /* .choose1 {
+        margin-top: 60px;
+    } */
+
+    .faq-text {
+        height: 670px;
+    }
+
+      
 
 
 }
@@ -207,12 +257,12 @@
     }
 
     .packages-parent {
-        padding: 0px 30px 100px 30px;
+        padding: 0px 30px 0px 30px;
     }
 
 
     .choose-us-heading-parent {
-        padding: 50px 30px 50px 30px;
+        padding: 70px 30px 50px 30px;
     }
 
     .why-choose-us {
@@ -222,6 +272,44 @@
     .custom-nav{
         padding: 0px 10px;
     }
+      .carousel-slide {
+
+              flex: 0 0 72%;
+             
+
+        }
+      
+      
+        .carousel{
+
+            height: 70vh;
+        
+
+        }
+           .gallery{
+            padding: 10px 30px 60px 30px;
+        }
+
+                 .faq-section{
+    padding: 0px 30px 0px 30px;
+
+             }
+
+                .bike-packages{
+
+        padding-bottom: 50px;
+
+
+
+     }
+     .testimonial-heading{
+    padding-top: 0px;
+        padding-bottom: 60px;
+  
+}
+
+
+  
 
 
 
@@ -272,14 +360,16 @@
     }
 
 
+  
+
+        /* .faq-text {
+        height: 762px;
+    } */
 
 
-    .choose_bg1,
-    .choose_bg2,
-    .choose_bg3,
-    .choose_bg4 {
-        padding: 45px 0px;
-    }
+
+
+   
 }
 
 @media (max-width: 770px) {
@@ -307,7 +397,7 @@
 @media (max-width: 660px) {
 
     .para {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .section1 {
@@ -396,13 +486,13 @@
     }
 
     .packages-heading-parent {
-        padding: 80px 10px 50px 10px;
+        padding: 80px 10px 30px 10px;
         top: -40px;
 
     }
 
     .packages-parent {
-        padding: 10px 10px 70px 10px;
+        padding: 10px 10px 0px 10px;
 
     }
 
@@ -435,10 +525,10 @@
     }
 
     .why-choose-us-chiled img {
-        width: 150px;
-        height: 100px;
-        left: 55%;
-        top: 0%;
+                width: 132px;
+        height: 90px;
+        left: 60%;
+        top: 7%;
     }
 
     .why-choose-us-chiled1-heading {
@@ -448,6 +538,34 @@
 
 .why_choose_heading h2{
     font-size: 35px;
+}
+
+
+
+             .gallery{
+               padding: 0px 10px 30px 10px;
+       }
+                .faq-section{
+    padding: 0px 10px 0px 10px;
+
+             }
+
+     
+      .choose1 .para {
+            padding: 0px 15px 30px 15px;
+
+    }
+
+       .bike-packages{
+
+        padding-bottom: 50px;
+
+
+
+     }
+     .testimonial-heading{
+    padding-top: 0px;
+  
 }
 
 
@@ -510,15 +628,37 @@
         font-size: 12px;
     }
 
-    .item-heading .para {
-        padding: 15px 0px 15px 0px;
-    }
+  
 
     .custom-prev,
     .custom-next {
         height: auto;
         width: auto;
     }
+
+        /* .choose1 {
+        margin-top: 50px;
+    } */
+     .choose5{
+        height: 200px;
+     }
+
+      .faq-text {
+        height: 625px;
+    }
+
+    .imgs{
+    width: 350px;
+   
+
+   
+}
+
+  
+
+    
+
+    
 
 }
 
@@ -546,7 +686,8 @@
     }
 
     .package_detail {
-        padding: 0;
+
+        padding: 13px 0px 0px 0px;
     }
 
     .choose_bg1,
@@ -564,6 +705,59 @@
     .custom-nav button:hover{
         background-color: #93939371;
     }
+       .why-choose-us-chiled img {
+                    width: 103px;
+        height: 70px;
+        left: 60%;
+        top: 8%;
+    }
+
+      .carousel-slide {
+
+              flex: 0 0 73%;
+
+        }
+        .carousel{
+
+            height: 50vh;
+
+        }
+
+     
+        .faq-text {
+        height: 680px;
+    }
+        .faq_heading{
+    padding-bottom: 30px;
+}
+
+
+.item-heading h3 {
+    font-size: 20px;
+}
+.item-heading .para{
+    padding: 10px 0px;
+}
+.item-button{
+    padding: 10px 0px 10px 0px;
+}
+
+.packeges-button, .packeges-button2{
+    padding: 9px 25px;
+}
+
+.item{
+    padding: 8px;
+}
+
+.custom-nav button{
+    display: none;
+}
+.owl-stage-outer {
+    margin-left: -30px; 
+    padding-left: 0 !important;
+    overflow: visible;
+}
 
 
 
@@ -596,6 +790,10 @@
 
     .section3-mid-chiled {
         padding-left: 10px;
+    }
+
+         .faq-text {
+        height: 710px;
     }
 
 
